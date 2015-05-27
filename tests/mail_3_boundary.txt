@@ -1,0 +1,74 @@
+--------------060801020309040206010708
+Content-Type: multipart/alternative;
+ boundary="------------030009040105070704090306"
+
+
+--------------030009040105070704090306
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+*I am some html with attach
+
+*
+--=20
+--------------030009040105070704090306
+Content-Type: multipart/related;
+ boundary="------------040700020402080204020504"
+
+
+--------------040700020402080204020504
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+
+    <meta http-equiv=3D=22content-type=22 content=3D=22text/html; =
+charset=3Dutf-8=22>
+  </head>
+  <body bgcolor=3D=22#FFFFFF=22 text=3D=22#000000=22>
+    <b>I am some html with attach<br>
+      <br>
+    </b>
+    <div class=3D=22moz-signature=22>-- <br>
+      <img src=3D=22cid:part1.03050800.08050002@gmail.com=22 =
+border=3D=220=22></div>
+  <img width=3D=221=22 height=3D=221=22 src=3D=22http://r.r.d.mailin.=
+fr/index.php/MzYxNjk4ODJ%2Bc2FjaGluQHNlbmRpbmJsdWUuY29tfjw1NTVGMUIwNC42MDcw=
+NjAzQGdtYWlsLmNvbT5%2B.jpg=22 /></body>
+</html>
+
+--------------040700020402080204020504
+Content-Type: image/png; x-mac-type="0"; x-mac-creator="0";
+ name="sendinblue.png"
+Content-Transfer-Encoding: base64
+Content-ID: <part1.03050800.08050002@gmail.com>
+Content-Disposition: inline;
+ filename="sendinblue.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAKAAAAAlCAYAAADFsuJGAAAABHNCSVQICAgIfAhkiAAAFI1J
+REFUeJztnHmUX8V157+3lvfeb9GvN7XEzrBYUrekGFsYIdRCyDYehpl4jDEydpzYZCb4jJLY
+nMQsxlL/+HW3bEyww+RMHEPiOc7YwcSAMR6bccZOhNwbCOSJQDRIAhmDgnb18tveUlV3/mh1
+q1tq6JZachDpzznv9Dmvqu6teu/+qm7duq+pudB9EKAsC8cYB4GdZQEYQGIyWDLDUlUQ/Rrk
+GQRSHqSfgomKVQvxwMBQtP54PoyZ4Z3NlNfVpvbeD5JUN7O1/16n0jkQgU0CNvFwbt2IQCFB
+ygMd/niG4+h1CDxmBT3w4h2XvXBKRjHDactxO3YX5rvnCC2W+iSWA3wZnG12QI4cJAlKHPiA
+IHqOWfcqdl3PZd2zeIf9t4MZTh7/H+1N4Ig2DbRTAAAAAElFTkSuQmCC
+
+--------------040700020402080204020504--
+
+--------------030009040105070704090306--
+
+--------------060801020309040206010708
+Content-Type: text/plain; charset=UTF-8;
+ name="abc.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename="abc.txt"
+
+CnZhciBkYk9wdGlvbnMgPSAoewogICJyZXRyeU1pbGlTZWNvbmRzIjogMTAwMCwKICAibnVt
+YmVyT2ZSZXRyaWVzIjogMywKICAibmF0aXZlX3BhcnNlciI6IGZhbHNlLCAvLyBJIGJlbGll
+dmUgdGhpcyBpcyBzbyB3ZSB1c2UgdGhlIEMrKyBic29uIHBhcnNlciAoZmFzdGVyKQogICJz
+JytjYWNoZWRfa2V5KTsKICAgICAgICAgICAgY2IoZmFsc2UgLCBvcGVuZWRfZGIpOwogICAg
+ICAgIH0KICAgIH0pOwoKfQo=
+
+--------------060801020309040206010708--

@@ -1,0 +1,29 @@
+{
+  "name": "mailparts",
+  "version": "1.0.0",
+  "description": "Breaks multipart mail into object/reforms mail from broken object",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sachiniec/mailparts.git"
+  },
+  "keywords": [
+    "multipart",
+    "mail",
+    "break",
+    "parts",
+    "child"
+  ],
+  "author": "Sachin Kumar <sachinat911@gmail.com> (https://www.facebook.com/sachinat911)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachiniec/mailparts/issues"
+  },
+  "homepage": "https://github.com/sachiniec/mailparts",
+  "dependencies": {
+    "mimelib": "^0.2.19"
+  }
+}
