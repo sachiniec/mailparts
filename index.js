@@ -18,6 +18,45 @@ exports.breakMail = function(boundary , bdy){
 	return parts;
 };
 
+exports.isAttachment = function(header){
+
+  var p = mimelib.parseHeaders(header);
+
+  var ct  = p['content-type'] != undefined ?  p['content-type'].toString() : "" ;
+  var cd  = p['content-disposition'] != undefined ? p['content-disposition'].toString() : "";
+
+  var textContent =  ct.indexOf("text/plain") != -1 || ct.indexOf("text/html") != -1;
+  var attachDisposition =  cd.indexOf("attachment") != -1 || cd.indexOf("inline") != -1;
+  var notMultipart = ct.indexOf("multipart/") == -1;
+
+  // detect if this is an attachment or a text node (some agents use inline dispositions for text)
+  if(textContent && ( cd == "" || cd.indexOf("inline") != -1 )){
+      return false;
+  }else if((!textContent || attachDisposition) && notMultipart){
+      return true;
+  }
+}
+
+exports.getAttachments = function(boundary , bdy){
+
+  var level_1 = bdy.split('--'+boundary);
+  var attachments = [];
+
+  if(level_1[0] != undefined){
+    level_1.forEach(function(val, index){
+        var r = exports.getChildParts(val);
+        if((r.bdy != '' || r.child) && r.head != ''){
+          if(exports.isAttachment(r.head)){
+            var bdyyy = new Buffer(r.bdy, "base64");
+            attachments.push({'size' : bdyyy.length });
+          }
+        }
+    });
+  }
+
+  return attachments;
+};
+
 exports.getChildParts = function(val){
   
   val = val.replace(/[\r\n]+$/, ""); // updated regex
